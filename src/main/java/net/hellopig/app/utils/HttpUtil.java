@@ -7,4 +7,5 @@ package net.hellopig.app.utils;
  * @date 2018/7/28 1:01    HttpUtil.java
  */
 public class HttpUtil {
+    //todo : 以后添加
 }
