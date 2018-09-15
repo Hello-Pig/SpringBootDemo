@@ -1,0 +1,6 @@
+server:
+  port: 8080
+pig:
+  id: 10002
+  name: 小猪
+  age: 16
