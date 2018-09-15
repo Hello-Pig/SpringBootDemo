@@ -16,6 +16,12 @@ import static org.junit.Assert.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+/**
+ * Description：LogIn 测试类
+ *
+ * @author CC
+ * @date 2018/8/5 13:54    LogInTest.java
+ */
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc
 @SpringBootTest

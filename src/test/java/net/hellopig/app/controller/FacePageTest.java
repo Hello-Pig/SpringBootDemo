@@ -14,6 +14,12 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import static org.junit.Assert.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+/**
+ * Description：FacePage 测试类
+ *
+ * @author CC
+ * @date 2018/8/5 13:54    FacePageTest.java
+ */
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc
 @SpringBootTest
