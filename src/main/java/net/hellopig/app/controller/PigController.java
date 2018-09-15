@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Description：pigs controller
+ * Description：PigController
  *
  * @author CC
  * @date 2018/8/5 13:54    PigController.java
@@ -59,11 +59,11 @@ public class PigController {
      *
      * @return Pig用户
      */
-    @PutMapping(value = "/pigs/{id}")
+    @PutMapping(value = "/pig/id/{id}")
     public Pig updatePig(@PathVariable(value = "id") String id, @RequestParam("name") String name,
                          @RequestParam(name = "phone") Integer phone, @RequestParam("email") String email,
                          @RequestParam("password") String password, @RequestParam("sex") String sex,
-                         @RequestParam("age") int age, @RequestParam("age") String address) {
+                         @RequestParam("age") int age, @RequestParam("address") String address) {
         Pig pig = new Pig();
         pig.setId(id);
         pig.setName(name);
@@ -77,12 +77,12 @@ public class PigController {
     }
 
     /**
-     * 根据 ID 删除 pig 用户
+     * 根据 ID 删除 pig
      *
      * @return List<SysUser> pig用户列表
      */
-    @DeleteMapping(value = "/pigs/{id}")
-    public String delectSysUser(@PathVariable(name = "id") String id) {
+    @DeleteMapping(value = "/pig/id/{id}")
+    public String delectPig(@PathVariable(name = "id") String id) {
         pigRepository.deleteById(id);
         return "id = " + id + "已删除！";
     }
@@ -97,7 +97,7 @@ public class PigController {
     public Pig addPig(@RequestParam("name") String name, @RequestParam(name = "phone") Integer phone,
                          @RequestParam("email") String email, @RequestParam("password") String passsword,
                          @RequestParam("sex") String sex, @RequestParam("age") int age,
-                         @RequestParam("age") String address) {
+                         @RequestParam("address") String address) {
         Pig pig = new Pig();
         pig.setName(name);
         pig.setPhoneNumber(phone);

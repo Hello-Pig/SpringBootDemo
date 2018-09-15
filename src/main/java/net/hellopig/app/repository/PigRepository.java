@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * Description：Repository
+ * Description：PigRepository
  *
  * @author CC
  * <p>
@@ -23,6 +23,7 @@ public interface PigRepository extends JpaRepository<Pig, String> {
      * @param age 年龄
      * @return 该年龄的所有 Pig
      */
-    public List<Pig> findPigsByAge(int age);
+    List<Pig> findPigsByAge(int age);
+
 
 }
