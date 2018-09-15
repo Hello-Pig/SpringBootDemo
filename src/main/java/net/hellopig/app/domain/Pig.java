@@ -7,7 +7,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * Description：pig对象，用户
+ * Description：pig对象
  *
  * @author CC
  * @date 2018/07/26 22:39    Pig.java

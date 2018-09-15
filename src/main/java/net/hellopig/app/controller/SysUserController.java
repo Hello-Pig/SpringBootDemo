@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 /**
- * Description：
+ * Description：SysUserController
  *
  * @author CC
  * @date 2018/7/31 22:40    SysUserController.java

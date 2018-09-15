@@ -1,6 +1,6 @@
 server:
-  port: 8080
-pig:
-  id: 10002
-  name: 小猪
-  age: 16
+  port: 8081
+#pig:
+#  id: 10002
+#  name: 小猪
+#  age: 16

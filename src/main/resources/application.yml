@@ -7,7 +7,7 @@ spring:
     username: root
     password: root
     tomcat:
-      max-active: 20
+      max-active: 15
       max-idle: 8
       min-idle: 8
       initial-size: 10
